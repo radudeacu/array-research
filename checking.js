@@ -11,3 +11,8 @@ console.log(Array.isArray(names)); // => true
 
 const object = {};
 console.log(Array.isArray(object)); // => false
+
+
+// You might be tempted to use names instanceof Array, and that can work, but not under all circumstances. Read this article: 
+//             https://web.mit.edu/jwalden/www/isArray.html 
+//             for more information.
